@@ -1,0 +1,121 @@
+.header{
+    width: 50%;
+    margin:5% auto;margin-top: 10%;
+    padding: 2rem;
+    animation: fade-bottom 1s;
+}
+
+.headerp  {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    display: inline-block;
+    
+    border-width: 4px 0;
+    color:#fff;
+    text-align: center;
+    margin: auto;
+    width: 40em;
+   margin-bottom: 18%;
+   padding: 5% 1%;
+  }
+  p span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    
+    /* Clip Background Image */
+    background: url("../Assets/animated-text-fill.png") repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 60s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+  }
+  z
+  /* Animate Background Image */
+  @keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.emaillink{
+    color:#fff ; 
+}
+.emaillink:hover{
+    color:#17a2b8 ;background-color: transparent;
+}
+.conteectinfo{
+    z-index: 10;position: fixed;
+    left: 0px;
+    padding: 1rem 4rem;
+    font-size: 1rem;
+  top: 0;
+    background-color:var(--bgcolor-secendory);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttongroup{    display: flex;
+    flex-direction: row;animation: downbtn 1s;
+    justify-content: center;
+}
+@keyframes downbtn{
+    0%{
+        justify-content: space-between;
+    }
+    100%{
+margin-top: 0%;
+justify-content: center;
+    }
+}
+.download::after{
+    content: '';
+    width: 40%;
+    height: 2px;
+    margin: 10px 0px;
+    left: 0px;
+    background-color: #fff;
+    transition: var(--transtion);
+    animation: jay 0.8s;
+    position: absolute;
+}
+@keyframes jay{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes fade-bottom {
+    0% {
+        margin-top: 0%;
+        opacity: 0%;
+    }
+    100% {
+        margin-top: 10%;
+        opacity: 100%;
+    }
+  }
+.download::before{
+     content: "";
+    width: 40%;
+    transition: var(--transtion);
+    animation: jay 0.8s;
+    height: 2px;
+    right: 0px;
+    background-color:#fff;
+    position: absolute;
+    margin: 10px 0px;
+
+}
+

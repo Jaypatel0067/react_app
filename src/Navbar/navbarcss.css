@@ -1,0 +1,32 @@
+.navbar{
+    width: 70px;
+    position: fixed;
+    right: 3%;
+    top: 28%;
+ backdrop-filter: blur(15px);
+ box-shadow: 0 0 2.08333rem rgb(0 0 0 / 50%);
+    z-index: 2;
+    height: max-content;
+     
+    background-color:var(--bgcolor-secendory);
+    
+
+}
+.navcontainer{
+    display: grid;
+}
+.navitem{
+    text-align: center;
+    font-size: var(--textmedium);
+    padding: 25% 28%;
+
+    
+}
+a{list-style-type: none;text-decoration: none;color: white;background: transparent;
+
+ 
+transition: var(--transtion);
+font-size: 1.1rem;
+}
+a:hover,.active{background-color:var(--bgcolor-primary);;color: #fff;}
+

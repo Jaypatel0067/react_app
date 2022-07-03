@@ -1,0 +1,39 @@
+.skill_card{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.skill_card_row{
+    padding: 1.5rem;
+    background-color: var(--bgcolor-secendory);
+    color: white;
+    transform: scale(0.9);
+    box-shadow: 6px 6px 20px 0px var(--bgcolor-primary);
+    border: var(--bgcolor-primary);
+    transition: var(--transtion);
+}
+.skill_card_row:hover,.activee{ background: var(--bgcolor-primary);
+    transform: scale(1); border:1px solid var(--bgcolor-secendory);
+}
+.ico{font-size: 5rem;}
+hr{color: antiquewhite;
+    border-color: azure;
+    /* margin: 20px; */
+    border: 1px dotted;
+    z-index: 22;}
+ul{
+   margin-top: 10px;
+     
+}
+.webskill{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    text-align: center;
+}
+.skill_li{
+    
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0rem 1rem;
+}
+

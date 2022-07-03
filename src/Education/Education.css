@@ -1,0 +1,48 @@
+#Education{
+    margin-top: 2rem;
+}
+.card_edyy{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    color: #fff;
+   
+    cursor: default;
+    
+}
+.card_edyy>.row{
+    border: 1px solid var(--bgcolor-secendory);margin-bottom: 2rem; border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.row_card h5,h6{text-align: right;}
+.main_card{    
+    }
+    .main_edu{
+        padding: 1rem;
+    }
+    .circle{
+        display: grid;
+        
+        display: grid;
+        grid-template-columns: 2% 2% 2%;
+        gap: 0.6rem;
+    }
+    .red{
+        width: 0.8rem;height: 0.8rem;
+        border-radius: 50%;background-color: rgb(237, 76, 92);
+    }
+    .Yellow{
+        width: 0.8rem;height: 0.8rem;
+        border-radius: 50%;background-color: rgb(253, 203, 88);
+    }
+    .green{
+        width: 0.8rem;height: 0.8rem;
+        border-radius: 50%;background-color: rgb(120, 177, 89);
+    }
+    .btn_main{    width:100%;
+        height: max-content;    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+        padding: 0.5rem 0.5rem;
+        margin-bottom: 0;
+        background-color: var(--bgcolor-secendory);
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    
+        }

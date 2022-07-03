@@ -1,0 +1,6 @@
+.slider_text{
+    text-align: center;cursor: default;background-color:var(--bgcolor-secendory);color: white;
+}
+.project{margin-bottom: 1rem;}
+.project_slider_img{overflow: hidden;}
+.project_slider_img a:hover>img{transition: var(--transtion); transform: scale(1.1);overflow: hidden;}
